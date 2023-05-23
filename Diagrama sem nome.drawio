@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T12:48:05.881Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="u00T4cJi04mzZ_zDJrCh" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T13:01:33.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="ILPomtd2RYSv8IC3Ossc" version="21.3.3" type="github">
   <diagram name="Página-1" id="ObDjMaNEaQxKLdpmxYKm">
     <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="30" y="120" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i8fznUJpcEFJtvA1fsWn-4" value="Equipe 1" style="dashed=0;html=1;fillColor=#F0F2F5;strokeColor=none;align=center;rounded=1;arcSize=10;fontColor=#596780;fontStyle=1;fontSize=11;shadow=0" parent="1" vertex="1">
-          <mxGeometry x="30" y="240" width="60" height="20" as="geometry" />
+          <mxGeometry x="30" y="250" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i8fznUJpcEFJtvA1fsWn-5" value="Equipe 3" style="dashed=0;html=1;fillColor=#F0F2F5;strokeColor=none;align=center;rounded=1;arcSize=10;fontColor=#596780;fontStyle=1;fontSize=11;shadow=0" parent="1" vertex="1">
           <mxGeometry x="30" y="520" width="60" height="20" as="geometry" />
@@ -25,12 +25,16 @@
         <mxCell id="22LdmYm_Ad8SW8tDnN4o-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-1" target="22LdmYm_Ad8SW8tDnN4o-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22LdmYm_Ad8SW8tDnN4o-1" value="I" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-1" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="90" y="70" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22LdmYm_Ad8SW8tDnN4o-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="160" />
+              <mxPoint x="161" y="160" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="22LdmYm_Ad8SW8tDnN4o-2" value="Usuário entra em contato via chat relatando falta de métricas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -66,8 +70,38 @@
         <mxCell id="22LdmYm_Ad8SW8tDnN4o-19" value="Nao" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-20" target="22LdmYm_Ad8SW8tDnN4o-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="22LdmYm_Ad8SW8tDnN4o-20" value="Relatório com&amp;nbsp; problematica" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-30" target="22LdmYm_Ad8SW8tDnN4o-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-30" value="Equipe 2 entende relatório, entra em contato com usuário e começa planejamento logistico" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-32" target="22LdmYm_Ad8SW8tDnN4o-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-32" value="Planejamento logistico para manutenção e coordenadas passadas pelo cliente em seu chamado" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-34" target="22LdmYm_Ad8SW8tDnN4o-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-34" value="Equipe manutenção alinha informações&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22LdmYm_Ad8SW8tDnN4o-36" target="22LdmYm_Ad8SW8tDnN4o-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-36" value="Deslocamento para resolução do problema e instalação para normalidade de sensor" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="22LdmYm_Ad8SW8tDnN4o-39" value="FIM" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="535" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
